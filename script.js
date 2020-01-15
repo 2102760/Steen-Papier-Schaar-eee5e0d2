@@ -70,6 +70,7 @@ function sendChoice(choice) {
                 document.getElementById("wonMessage").innerText = `player 1 won because he had chosen ${choicePlayer1}, Player 2 had chosen ${choicePlayer2}`;
                 break;
             case 2:
+                document.getElementById("wonTitle").innerText = "Congratulations player 2!";
                 document.getElementById("wonMessage").innerText = `player 2 won because he had chosen ${choicePlayer2}, Player 1 had chosen ${choicePlayer1}`;
                 break;
             case 3:
